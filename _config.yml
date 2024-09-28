@@ -1,0 +1,6 @@
+title: Cactus Communications Blog
+description: >- # this means to ignore newlines until "baseurl:"
+  Welcome to the Cactus Communications blog, where we share insights on public relations, event planning, content creation, and more.
+baseurl: "" # the subpath of your site, leave it blank if in the root directory
+url: "https://lynese69.github.io/Cactus-Communications" # your GitHub Pages URL
+theme: minima # use the Minima theme as a simple, built-in Jekyll theme
