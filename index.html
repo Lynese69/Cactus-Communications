@@ -10,17 +10,25 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f2e9db; /* Lighter beige background */
+            background-color: #f9f6ef; /* Lighter beige background */
             color: #333;
             line-height: 1.6;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #c75c36; /* Rusty orange header */
+            background: linear-gradient(135deg, #c75c36, #e37e4d); /* Rusty orange gradient */
             color: white;
             padding: 20px 0;
             text-align: center;
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            width: 50px;
+            height: auto;
         }
         .container {
             padding: 20px;
@@ -29,6 +37,9 @@
         }
         h1, h2 {
             color: #405d6a; /* Deep blue-green */
+        }
+        h1 {
+            font-size: 2.5rem;
         }
         .about-me {
             background-color: #b19c75; /* Tan background */
@@ -39,7 +50,7 @@
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #c75c36; /* Rusty orange footer */
+            background: linear-gradient(135deg, #c75c36, #e37e4d); /* Rusty orange gradient */
             color: white;
             margin-top: 20px;
         }
@@ -51,7 +62,12 @@
             margin: 0 10px;
             color: #405d6a; /* Deep blue-green for icons */
             text-decoration: none;
-            font-size: 1.2em;
+            font-size: 1.5em;
+            transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+        }
+        .social-media a:hover {
+            color: #c75c36; /* Rusty orange on hover */
+            transform: scale(1.2);
         }
         ul {
             list-style-type: disc; /* Bulleted list */
@@ -69,12 +85,18 @@
             padding: 10px 15px;
             border-radius: 5px;
             text-decoration: none;
+            transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .call-to-action a:hover {
+            background-color: #e37e4d; /* Lighter rusty orange on hover */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
     </style>
 </head>
 <body>
 
 <header>
+    <img src="https://example.com/cactus-logo.png" alt="Cactus Logo"> <!-- Replace with your logo URL -->
     <h1>Cactus Communications</h1>
     <p>Public Relations | Event Planning | Content Creation | Fundraising | Marketing</p>
 </header>
