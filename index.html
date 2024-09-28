@@ -27,8 +27,11 @@
             position: absolute;
             top: 10px;
             left: 20px;
-            width: 150px; /* Made logo larger */
+            width: 120px; /* Made logo slightly larger */
             height: auto;
+        }
+        header h1 {
+            padding-left: 150px; /* Adjusted padding to bring title and logo closer */
         }
         .container {
             padding: 20px;
@@ -40,6 +43,9 @@
         }
         h1 {
             font-size: 2.5rem;
+        }
+        .welcome, .about-me {
+            padding: 30px; /* Added extra padding for better spacing */
         }
         .about-me {
             background-color: #d2c8b0; /* Matched cactus background color */
@@ -66,7 +72,7 @@
             transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
         }
         .social-media a:hover {
-            color: #c75c36; /* Rusty orange on hover */
+            color: #e37e4d; /* Added hover color transition to match branding */
             transform: scale(1.2);
         }
         ul {
@@ -90,7 +96,8 @@
         }
         .call-to-action a:hover {
             background-color: #e37e4d; /* Lighter rusty orange on hover */
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Increased hover shadow for more prominence */
+            transform: scale(1.05); /* Slight scale on hover for interaction */
         }
     </style>
 </head>
