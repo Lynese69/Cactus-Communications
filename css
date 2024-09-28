@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light aqua background */
+    color: #00695c; /* Dark teal text */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #00796b; /* Teal heading */
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #00796b; /* Teal border */
+    border-radius: 8px;
+    background-color: #ffffff; /* White background for content */
+}
